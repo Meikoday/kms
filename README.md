@@ -1,3 +1,4 @@
+<html>
 #使用帮助
 #下载vlmcsd
 wget https://github.com/Meikoday/kms/blob/main/binaries.tar.gz
@@ -19,3 +20,4 @@ firewall-cmd --zone=public --add-port=1688/tcp --permanent
 firewall-cmd --reload
 #加入开机自启动
 echo "/usr/sbin/vlmcsd > /dev/null 2>&1" >> /etc/rc.local
+</html>
